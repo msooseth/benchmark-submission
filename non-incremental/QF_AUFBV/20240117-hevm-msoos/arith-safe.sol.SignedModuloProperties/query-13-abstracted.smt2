@@ -55,6 +55,7 @@
 ; logic
 (set-info :smt-lib-version 2.6)
 (set-logic QF_AUFBV)
+(set-info :status unknown)
 (set-info :source |
 Generator: hevm
 Application: hevm symbolic execution system
