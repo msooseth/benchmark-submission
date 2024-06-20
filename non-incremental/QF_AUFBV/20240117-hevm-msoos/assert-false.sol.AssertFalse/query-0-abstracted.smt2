@@ -1,11 +1,3 @@
-;(PLT
-;  (BufLength
-;    (AbstractBuf "txdata")
-;  )
-;  18446744073709551616
-;)
-;
-; logic
 (set-info :smt-lib-version 2.6)
 (set-logic QF_AUFBV)
 (set-info :license "https://creativecommons.org/licenses/by-nc-sa/4.0/")
@@ -23,6 +15,15 @@ on ./bench.py in [2].
 |)
 (set-info :category "industrial")
 (set-info :status sat)
+
+;(PLT
+;  (BufLength
+;    (AbstractBuf "txdata")
+;  )
+;  18446744073709551616
+;)
+;
+; logic
 
 ; types
 (define-sort Byte () (_ BitVec 8))
